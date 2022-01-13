@@ -18,12 +18,11 @@ body {
 .navb {
   position: relative;
   padding: 25px;
-  text-decoration: none;
   color: pink;
 }
 
 .nav a:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   color: pink;
 }
 
@@ -44,7 +43,7 @@ body {
   position: relative;
   background-color: white;
   margin-top: 125px;
-  height: 2500px;
+  height: 2200px;
   width: 1050px;
   flex-direction: row;
   justify-content: flex-start;
@@ -88,14 +87,6 @@ body {
   margin-top: 30px;
 }
 
-/*.downarrow {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    justify-content: center;
-    height: 10px;
-}*/
-
 #jump {
   background-color: white;
 }
@@ -111,10 +102,7 @@ body {
   display: flex;
   position: relative;
   justify-content: center;
-}
-
-.div0 .imgsize:hover {
-  transform: scale(1.1);
+  align-items: center;
 }
 
 /*Second Nav*/
@@ -162,7 +150,6 @@ body {
   position: relative;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
@@ -170,7 +157,6 @@ body {
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
@@ -216,6 +202,7 @@ body {
   width: 1050px;
   align-items: center;
   flex-direction: column;
+  text-decoration: none;
 }
 
 .contactinfo2 {
@@ -228,6 +215,8 @@ body {
   font-size: 25px;
   align-items: center;
   margin-top: 50px;
+  text-decoration: none;
+  color: black;
 }
 
 .contactinfo3 {
@@ -240,6 +229,8 @@ body {
   font-size: 20px;
   align-items: center;
   margin-top: 50px;
+  text-decoration: none;
+  color: black;
 }
 
 .redquotes2 {
@@ -247,4 +238,10 @@ body {
   font-family: "Merriweather", serif;
   font-weight: 900;
   margin-right: 10px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
