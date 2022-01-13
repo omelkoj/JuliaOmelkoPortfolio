@@ -32,7 +32,7 @@ body {
   width: 100%;
   height: 100%;
   position: fixed;
-  background-image: url(/img/Screen\ Shot\ 2021-12-05\ at\ 12.25.51\ PM.png);
+  background-image: url(./img/Screen\ Shot\ 2021-12-05\ at\ 12.25.51\ PM.png);
   background-size: cover;
   overflow: scroll;
   scroll-behavior: smooth;
