@@ -52,6 +52,14 @@ body {
   color: pink;
 }
 
+.nav a:focus {
+  color: pink;
+}
+
+.nav a:active {
+  color: pink;
+}
+
 .div0 {
   display: flex;
   justify-content: center;
