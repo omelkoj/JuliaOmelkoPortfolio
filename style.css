@@ -220,6 +220,14 @@ body {
   opacity: 0.8;
 }
 
+.img-container:focus .overlay2 {
+  opacity: 0.8;
+}
+
+.img-container:active .overlay2 {
+  opacity: 0.8;
+}
+
 /*About page*/
 
 .contactinfo {
@@ -365,16 +373,29 @@ a {
 }
 
 @media screen and (max-width: 800px) {
+  .img-container:hover .overlay2 {
+    opacity: 0.8;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .img-container:focus .overlay2 {
+    opacity: 0.8;
+  }
+}
+
+@media screen and (max-width: 800px) {
   .img-container:active .overlay2 {
     opacity: 0.8;
   }
 }
 
-@media (hover: hover) and (pointer: fine) {
+/*@media (hover: hover) and (pointer: fine) {
   .img-container:hover .overlay2 {
     opacity: 0.8;
   }
 }
+*/
 /*.nav2box2 {
   display: flex;
   position: relative;
