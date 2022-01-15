@@ -370,6 +370,11 @@ a {
   }
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .img-container:hover .overlay2 {
+    opacity: 0.8;
+  }
+}
 /*.nav2box2 {
   display: flex;
   position: relative;
