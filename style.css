@@ -13,12 +13,44 @@ body {
   text-decoration: none;
   color: black;
   justify-content: center;
+  flex-direction: column;
+}
+
+.nav2box2 {
+  position: relative;
+  padding: 25px;
+  text-decoration: none;
+  color: black;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.nav2 {
+  position: relative;
+  padding: 25px;
+  text-decoration: none;
+  color: black;
+  justify-content: center;
+  max-width: 20%;
+  flex-wrap: wrap;
+}
+
+.nav3 {
+  position: relative;
+  padding: 25px;
+  text-decoration: none;
+  color: black;
+  justify-content: center;
+  max-width: 20%;
+  flex-wrap: wrap;
 }
 
 .navb {
   position: relative;
   padding: 25px;
   color: pink;
+  max-width: 20%;
+  flex-wrap: wrap;
 }
 
 .nav a:hover {
@@ -47,44 +79,6 @@ body {
   width: 1050px;
   flex-direction: row;
   justify-content: flex-start;
-}
-
-/* Use a media query to add a breakpoint at 800px: 
-@media screen and (max-width: 800px) {
-  .div0, .div1 {
-    height: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-/*}*/
-
-@media only screen and (max-width: 620px) {
-  /* For mobile phones: */
-  .div0,
-  .div1,
-  .text0 {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .div1 {
-    flex: 100%;
-    height: 9000px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .nav2box {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-}
-
-/* Use a media query to add a breakpoint at 800px: */
-@media screen and (max-width: 800px) {
-  .nav,
-  .navb {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
 }
 
 .profilepic {
@@ -300,3 +294,28 @@ a {
   width: 100%;
   height: 200px;
 }
+
+@media screen and (orientation: portrait) {
+  .div1 {
+    flex: 100%;
+    height: 9000px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav2box2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*.nav2box2 {
+  display: flex;
+  position: relative;
+  padding: 25px;
+  text-decoration: none;
+  color: black;
+  justify-content: center;
+  max-width: 100%;
+  flex-direction: column;
+}*/
