@@ -225,10 +225,11 @@ body {
 .contactinfo {
   display: flex;
   justify-content: center;
-  width: 1050px;
+  width: 100%;
   align-items: center;
   flex-direction: column;
   text-decoration: none;
+  margin-top: 60px;
 }
 
 .contactinfo2 {
@@ -238,7 +239,7 @@ body {
   font-weight: 900;
   font-style: italic;
   position: relative;
-  font-size: 25px;
+  font-size: 20px;
   align-items: center;
   margin-top: 50px;
   text-decoration: none;
@@ -254,9 +255,22 @@ body {
   position: relative;
   font-size: 20px;
   align-items: center;
-  margin-top: 50px;
   text-decoration: none;
   color: black;
+}
+
+.contactinfo4 {
+  display: flex;
+  justify-content: center;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+  position: relative;
+  font-size: 20px;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  margin-top: 45px;
 }
 
 .redquotes2 {
@@ -267,9 +281,29 @@ body {
   text-decoration: none;
 }
 
+.redquotes3 {
+  color: red;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  text-decoration: none;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
 a {
   text-decoration: none;
   color: black;
+}
+
+.abouttext {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 75%;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+  flex-direction: column;
 }
 
 /*Footer*/
@@ -278,7 +312,7 @@ a {
   display: flex;
   justify-content: center;
   background-color: black;
-  width: 100%;
+  width: 1000px;
   height: 200px;
 }
 
@@ -320,13 +354,19 @@ a {
 
 @media screen and (max-width: 800px) {
   .imgsize0 {
-    margin-top: 40px;
+    margin-top: 50px;
   }
 }
 
 @media screen and (max-width: 400px) {
   .imgsize0 {
     margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .img-container:active .overlay2 {
+    opacity: 0.8;
   }
 }
 
