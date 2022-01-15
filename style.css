@@ -380,24 +380,6 @@ a {
   }
 }
 
-@media screen and (max-width: 800px) {
-  .img-container:hover .overlay2 {
-    opacity: 0.8;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .img-container:focus .overlay2 {
-    opacity: 0.8;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .img-container:active .overlay2 {
-    opacity: 0.8;
-  }
-}
-
 /*@media (hover: hover) and (pointer: fine) {
   .img-container:hover .overlay2 {
     opacity: 0.8;
