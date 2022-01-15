@@ -318,6 +318,18 @@ a {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .imgsize0 {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .imgsize0 {
+    margin-top: 80px;
+  }
+}
+
 /*.nav2box2 {
   display: flex;
   position: relative;
