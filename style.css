@@ -442,6 +442,12 @@ a {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .backtohome {
+    margin-top: 20px;
+  }
+}
+
 @media (hover: hover) and (pointer: fine) {
   .img-container:hover .overlay2 {
     opacity: 0.8;
