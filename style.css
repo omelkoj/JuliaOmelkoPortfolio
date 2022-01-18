@@ -440,14 +440,14 @@ a {
 }
 
 @media screen and (max-width: 800px) {
-  .div0 {
-    margin-top: -50px;
+  .div1 {
+    margin-top: 70px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .div0 {
-    margin-top: -50px;
+  .div1 {
+    margin-top: 70px;
   }
 }
 
