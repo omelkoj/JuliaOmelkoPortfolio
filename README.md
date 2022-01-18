@@ -1,25 +1,16 @@
-## DAFT PUNK FAN SITE (PROJECT 2)
+## JULIA OMELKO PORTFOLIO
 
-You can use the [editor on GitHub](https://github.com/omelkoj/JuliaOmelkoPortfolio/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-This is my Project 2 for the Front End Developement Bootcamp at Albany Can Code. It is a fan site for the band Daft Punk, and the goal of the site is for visitors
-to be able to listen to Daft Punk's key albums, find out more about them, visit their various social media sites, and view their film Electroma. 
+This is a project that I started at the end of the Fall 2021 semester, but just got around to finishing. This is a responsive, mobile-optimized portfolio site for me to display my current work, contact information, and a little about myself.
 
 ### DESIGN
 
-1. The homepage has a helmet, which when hovered over, reveals a motherboard, which in turn produces hoverable nav links. This is a reference to one of the Robots taking off his helmet in the film Electroma, to reveal his true identity as a robot.
-
-2. The entire site is polished and minimalistic, as well as somewhat retro font/styling choices to pay homage to Daft Punk's innovation and rise to fame in the 90's/early 2000's, as well as their helmets and stage wear.
-
-3. The "More Daft" page features a timeline of Daft Punk's helmets throughout the years, as well as functioning as links to their social media sites. Hovering over the timeline produces more interesting Daft Punk facts.
+1. I like to design things with simple, polished lines and layouts. I wanted the site to focus on myself and my work, so I chose to include my profile picture as soon as you enter, as well as a little blurb, and then the arrow points straight down to my work. Most of the rest of the site's content is pages of my work, as well as a page with contact information, and a little bit about me.
 
 
 ### TROUBLESHOOTING/CHALLENGES
 
-- I learned how to use CSS grid, as well as more about nesting elements in order to achieve the effect I was looking for on the homepage - I couldn't get both .hover styles to work simultaneously by only using flexbox and positioning as I usually would.
+- Since I am not very comfortable with JavaScript yet (but still learning!), I wanted an effect where the content would dynamically reload upon clicking a nav link, but keep the user on the same page. I accomplished a similar effect with only HTML and CSS, by putting an anchor link on each of the secondary nav links, and styling the links to be pink, only on the page the user is currently on.
 
-- The two overlapping images would begin to move apart from each other when resizing the browser window. I fixed this with positioning, and by changing one of the classes to relative positioning.
+- The course I took didn't cover mobile optimization, so I took it upon myself to learn about using media queries. Since I made the website as reponsive as possible from the beginning, I didn't need to tweak too much, but I did put in several media queries to change some styling for mobile devices. I used FireFox Developer Tools to ensure it looked as good as possible on many different devices.
 
-- The helmet timeline was responsive, but the links didn't match up with the corresponding helmets upon resizing. I fixed this by putting each link/helmet into individual flexbox columns, and then putting it all together into one giant flexbox with flex-direction: row.
-
-- The "Listen page" media player links kept jumping back up to the top every time the album image was clicked. I fixed this by putting a letter + hashtag into the href, instead of just the #. Simple, but it worked!
+- I learned how to make a responsive photo gallery, that could be used with different sized images, as well as how to make the overlays automatically adjust to the different sizes, and I was happy with the result.
