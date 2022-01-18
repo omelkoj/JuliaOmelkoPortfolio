@@ -406,7 +406,7 @@ a {
 
 @media screen and (max-width: 400px) {
   .imgsize0 {
-    margin-top: 80px;
+    margin-top: 50px;
   }
 }
 
@@ -435,7 +435,7 @@ a {
 
 @media screen and (max-width: 800px) {
   .backtohome {
-    margin-top: 20px;
+    margin-top: -30px;
   }
 }
 
