@@ -452,6 +452,12 @@ a {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .div1 {
+    margin-top: 75px;
+  }
+}
+
 @media (hover: hover) and (pointer: fine) {
   .img-container:hover .overlay2 {
     opacity: 0.8;
