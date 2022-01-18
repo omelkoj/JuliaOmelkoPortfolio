@@ -397,7 +397,7 @@ a {
   .nav2,
   .nav3 {
     display: flex;
-    font-size: 15px;
+    font-size: 13px;
     flex-direction: row;
     text-align: left;
     margin-left: -30px;
@@ -430,7 +430,7 @@ a {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
@@ -442,19 +442,13 @@ a {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
 @media screen and (max-width: 800px) {
   .backtohome {
     margin-top: 20px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .div1 {
-    margin-top: 75px;
   }
 }
 
